@@ -329,7 +329,7 @@ async function sendMessage() {
   // Show typing indicator while waiting
   addTypingIndicator();
 try {
-    const response = await fetch('https://portfolio-api-qakh.onrender.com', {
+    const response = await fetch('https://portfolio-api-qakh.onrender.com/chat', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
